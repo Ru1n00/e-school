@@ -20,4 +20,4 @@ linksBtn.addEventListener('click', function () {
     console.log('links btn clicked');
     linksDiv.classList.toggle('hidden');
 });
-console.log('linked');
+// console.log('linked');

@@ -12,7 +12,7 @@ function updateCart() {
     let total = 0;
     cart.innerHTML = '';
     checkoutItems.forEach(function (item) {
-        console.log(item);
+        // console.log(item);
         total += parseFloat(item.price);
         cart.innerHTML += `<div class="flex justify-between mb-4">
                             <div class="flex">
@@ -61,7 +61,7 @@ itemsList.forEach(function (item) {
 
         checkoutItems.push(checkoutItem);
         updateCart();
-        console.log(checkoutItems);
+        // console.log(checkoutItems);
     });
 });
-console.log(itemsList);
+// console.log(itemsList);
